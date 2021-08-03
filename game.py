@@ -110,6 +110,8 @@ def solve():
             print("Words guessed : ",already_guessed,"/nWords not guessed : ",word)
             play_loop()
 
+            
+            
     if word == '_' * length:
         print("Congrats! You have guessed the word correctly!")
         play_loop()
